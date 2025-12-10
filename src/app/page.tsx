@@ -20,10 +20,10 @@ export default function Home() {
             background: 'linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0.7) 90%, black 100%)',
           }}
         ></div>
-        <div className="max-w-4xl w-full px-4 relative z-10 flex flex-col items-center">
+        <div className="max-w-4xl w-full px-4 relative z-10 flex flex-col items-center justify-center">
           {/* Premium Profile Photo Container */}
-          <div className="mb-8 md:mb-12 relative">
-            <div className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-2 border-white/30 shadow-[0_0_30px_rgba(255,255,255,0.1)] backdrop-blur-sm bg-gradient-to-br from-white/10 via-white/5 to-transparent relative">
+          <div className="mb-6 md:mb-8 relative -mt-16 md:-mt-20">
+            <div className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-white/30 shadow-[0_0_30px_rgba(255,255,255,0.1)] backdrop-blur-sm bg-gradient-to-br from-white/10 via-white/5 to-transparent relative">
               {/* Inner ring for premium effect */}
               <div className="absolute inset-0 rounded-full border border-white/10"></div>
               {/* REX Logo */}
@@ -31,9 +31,9 @@ export default function Home() {
                 <Image
                   src="/rex-logo.png"
                   alt="REX Logo"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-contain p-3"
+                  width={112}
+                  height={112}
+                  className="w-full h-full object-contain p-2.5"
                   priority
                 />
               </div>
