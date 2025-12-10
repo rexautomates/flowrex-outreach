@@ -66,7 +66,7 @@ export default function Home() {
         ></div>
         <div className="max-w-4xl w-full px-4 relative z-10">
           <p className="text-3xl md:text-5xl lg:text-6xl font-bold text-center leading-tight text-white tracking-tight">
-            I build AI-driven SDR systems that qualify leads and book meetings automatically.
+            I build AI-driven systems that automates your entire sales pipeline
           </p>
         </div>
       </FadeInSection>
@@ -90,7 +90,7 @@ export default function Home() {
         ></div>
         <div className="max-w-4xl w-full px-4 relative z-10">
           <div className="flex flex-col items-center space-y-8 md:space-y-10 text-center text-white">
-            <div className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">Built with n8n, Supabase, Vercel</div>
+            <div className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">Built using n8n, Supabase, and advanced AI</div>
             <div className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">Modern AI automations for agencies & online businesses</div>
             <div className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">Done-for-you installation & support</div>
           </div>
