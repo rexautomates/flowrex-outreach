@@ -1,5 +1,5 @@
 export default function DemoPage() {
-  const videoUrl = 'https://player.vimeo.com/video/1153111301'
+  const videoUrl = 'https://www.youtube.com/embed/vKbJK-O8-co'
 
   return (
     <main className="flex flex-col min-h-screen items-center justify-center px-4 py-8 md:py-12">
