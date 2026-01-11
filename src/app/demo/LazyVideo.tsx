@@ -4,9 +4,10 @@ import { useEffect, useRef, useState } from 'react'
 
 interface LazyVideoProps {
   videoUrl: string
+  posterUrl?: string
 }
 
-export default function LazyVideo({ videoUrl }: LazyVideoProps) {
+export default function LazyVideo({ videoUrl, posterUrl }: LazyVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const [shouldLoad, setShouldLoad] = useState(false)
@@ -46,6 +47,7 @@ export default function LazyVideo({ videoUrl }: LazyVideoProps) {
           controls
           playsInline
           preload="metadata"
+          poster={posterUrl}
           style={{
             transform: 'translateZ(0)',
             objectFit: 'contain',

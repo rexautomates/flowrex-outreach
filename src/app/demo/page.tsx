@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 export default function DemoPage() {
   const videoUrl = 'https://1fuvaseaoclg1cft.public.blob.vercel-storage.com/AI%20SDR%20DEMO'
+  const posterUrl = 'https://1fuvaseaoclg1cft.public.blob.vercel-storage.com/thumb.jpg'
 
   return (
     <main className="flex flex-col min-h-screen items-center justify-start px-4 py-6 sm:py-8 md:py-12 overflow-x-hidden">
@@ -26,7 +27,7 @@ export default function DemoPage() {
       {/* Video Container */}
       <div className="w-full max-w-5xl mb-6 sm:mb-8 md:mb-12">
         <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 md:p-6 shadow-2xl border border-white/10 mx-auto">
-          <LazyVideo videoUrl={videoUrl} />
+          <LazyVideo videoUrl={videoUrl} posterUrl={posterUrl} />
         </div>
       </div>
 
