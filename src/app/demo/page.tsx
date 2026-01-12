@@ -50,17 +50,8 @@ export default function DemoPage() {
       </div>
 
       {/* Footer */}
-      <footer className="py-8 text-[10px] md:text-xs text-center text-[#000080] relative">
-        {/* Gradient fade from black at top for seamless transition */}
-        <div 
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background: 'linear-gradient(to bottom, black 0%, rgba(0,0,0,0.7) 30%, transparent 100%)',
-          }}
-        ></div>
-        <div className="relative z-10">
-          © 2026 Flowrex
-        </div>
+      <footer className="py-8 text-[10px] md:text-xs text-center text-[#000080] relative z-10">
+        © 2026 Flowrex
       </footer>
     </main>
   )
