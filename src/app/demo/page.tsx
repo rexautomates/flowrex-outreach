@@ -32,6 +32,11 @@ export default function DemoPage() {
         </p>
       </div>
 
+      {/* Highlight */}
+      <div className="max-w-4xl w-full text-center text-white/80 text-sm sm:text-base md:text-lg mb-4 sm:mb-6 md:mb-8 relative z-10 px-4">
+        Installed into your stack, so you own it. No SaaS lock-in
+      </div>
+
       {/* Video Container */}
       <div className="w-full max-w-5xl mb-6 sm:mb-8 md:mb-12 relative z-10">
         <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 md:p-6 shadow-2xl border border-white/10 mx-auto">
