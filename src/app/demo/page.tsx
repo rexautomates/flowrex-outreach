@@ -74,13 +74,14 @@ export default function DemoPage() {
           <div className="absolute inset-0 bg-blue-500/30 blur-2xl -z-10 scale-105 rounded-full opacity-60"></div>
 
           <a
-            href="https://cal.com/rex-hale-e6vhrh/intro"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative px-10 py-5 sm:px-12 sm:py-6 rounded-full bg-gradient-to-br from-white/20 via-white/15 to-white/10 backdrop-blur-md border-2 border-white/30 text-white font-bold text-lg sm:text-xl transition-all duration-300 shadow-[0_0_40px_rgba(255,255,255,0.3),0_0_80px_rgba(59,130,246,0.2),inset_0_0_20px_rgba(255,255,255,0.1)] hover:scale-105 hover:border-white/50"
-          >
-            <span className="relative z-10 block">Book a call</span>
-          </a>
+  href="https://cal.com/rex-hale-e6vhrh/intro"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative px-10 py-5 sm:px-12 sm:py-6 rounded-full bg-gradient-to-br from-white/20 via-white/15 to-white/10 backdrop-blur-md border-2 border-white/30 text-white font-bold text-lg sm:text-xl shadow-[0_0_40px_rgba(255,255,255,0.3),0_0_80px_rgba(59,130,246,0.2),inset_0_0_20px_rgba(255,255,255,0.1)]"
+>
+  <span className="relative z-10 block">Book a call</span>
+</a>
+
         </div>
       </div>
 
