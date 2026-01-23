@@ -68,13 +68,21 @@ export default function DemoPage() {
       {/* Book a Call Button */}
 <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
   <a
-    href="https://cal.com/rex-hale-e6vhrh/intro"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="px-10 py-5 sm:px-12 sm:py-6 rounded-full bg-transparent border-2 border-white/40 text-white font-bold text-lg sm:text-xl hover:border-white/70"
-  >
-    Book a call
-  </a>
+  href="https://cal.com/rex-hale-e6vhrh/intro"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    px-10 py-5 sm:px-12 sm:py-6 rounded-full
+    bg-transparent border-2 border-white/40
+    text-white font-bold text-lg sm:text-xl
+    transition duration-200 ease-out
+    hover:bg-white/10 hover:border-white/70 hover:-translate-y-[1px]
+    focus:outline-none focus:ring-2 focus:ring-white/30 focus:ring-offset-0
+  "
+>
+  Book a call
+</a>
+
 </div>
 
 
