@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import LazyVideo from './LazyVideo'
-import { ShinyButton } from '@/components/ui/shiny-button'
 
 export const metadata: Metadata = {
   robots: {
@@ -68,9 +67,12 @@ export default function DemoPage() {
 
       {/* Book a Call Button */}
       <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
-        <ShinyButton onClick={() => window.location.href = '/booking'}>
+        <a
+          href="/booking"
+          className="px-8 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium text-lg hover:bg-white/15 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
+        >
           Book a call
-        </ShinyButton>
+        </a>
       </div>
 
       {/* CTA and Note - Premium Styling */}
