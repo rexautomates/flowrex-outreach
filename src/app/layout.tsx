@@ -10,7 +10,7 @@ const scienceGothic = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Flowrex - AI Automation Systems',
+  title: 'Flowrex',
   description: 'AI-driven SDR systems that qualify leads and book meetings automatically',
   viewport: {
     width: 'device-width',

@@ -39,7 +39,7 @@ export default function LazyVideo({ videoUrl, posterUrl }: LazyVideoProps) {
   }, [])
 
   return (
-    <div ref={containerRef} className="relative w-full overflow-hidden rounded-lg bg-black" style={{ paddingBottom: '56.25%', minHeight: '200px' }}>
+    <div ref={containerRef} className="relative w-full overflow-hidden rounded-lg bg-black/20" style={{ paddingBottom: '56.25%', minHeight: '200px' }}>
       {shouldLoad ? (
         <video
           ref={videoRef}
