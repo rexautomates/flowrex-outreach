@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import LazyVideo from './LazyVideo'
+import { ShinyButton } from '@/components/ui/shiny-button'
 
 export const metadata: Metadata = {
   robots: {
@@ -60,6 +61,13 @@ export default function DemoPage() {
             <LazyVideo videoUrl={videoUrl} posterUrl={posterUrl} />
           </div>
         </div>
+      </div>
+
+      {/* Book a Call Button */}
+      <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
+        <ShinyButton onClick={() => window.open('https://calendly.com', '_blank')}>
+          Book a call
+        </ShinyButton>
       </div>
 
       {/* CTA and Note - Premium Styling */}
