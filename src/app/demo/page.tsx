@@ -68,22 +68,19 @@ export default function DemoPage() {
       {/* Book a Call Button */}
       <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
         <a
-          href="/booking"
+          href="https://cal.com/rex-hale-e6vhrh/intro"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-8 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-medium text-lg hover:bg-white/15 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
         >
           Book a call
         </a>
       </div>
 
-      {/* CTA and Note - Premium Styling */}
-      <div className="max-w-5xl w-full text-center space-y-4 mb-8 sm:mb-10 relative z-10">
-        <div className="inline-block px-6 py-3 rounded-lg bg-white/5 backdrop-blur-sm border border-white/15 shadow-[0_0_15px_rgba(255,255,255,0.08)]">
-          <p className="text-base sm:text-lg md:text-xl text-white/95 font-medium px-4">
-            Reply to my email for the next step
-          </p>
-        </div>
+      {/* Note */}
+      <div className="max-w-5xl w-full text-center mb-8 sm:mb-10 relative z-10">
         <p className="text-xs sm:text-sm md:text-base text-white/50 px-4">
-          If you didn't request this demo, ignore this page
+          Reply to my email if you have any questions
         </p>
       </div>
 
