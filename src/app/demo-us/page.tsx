@@ -68,7 +68,7 @@ export default function DemoUsPage() {
             {/* Book a Call Button */}
             <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
                 <a
-                    href="https://cal.com/rex-hale-e6vhrh/intro"
+                    href="https://cal.com/rex-hale-e6vhrh/intro-call"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
