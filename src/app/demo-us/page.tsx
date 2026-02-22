@@ -35,7 +35,7 @@ export default function DemoUsPage() {
             {/* Header Section */}
             <div className="max-w-4xl w-full relative z-10 flex flex-col items-center justify-center text-center mb-8 sm:mb-10 md:mb-12">
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-white tracking-tight mb-4 sm:mb-6">
-                    AI SDR Demo
+                    Speed-to-Lead Booking System
                 </h1>
                 <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-white/90 tracking-tight px-2">
                     Qualify leads + book meetings automatically
