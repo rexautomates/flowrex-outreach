@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import localFont from 'next/font/local'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const scienceGothic = localFont({
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className={scienceGothic.variable}>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
       {plausibleDomain !== 'yourdomain.com' && (
         <Script
