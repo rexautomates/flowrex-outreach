@@ -37,18 +37,6 @@ export default function DemoUsPage() {
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-white tracking-tight mb-4 sm:mb-6">
                     Speed-to-Lead Booking System
                 </h1>
-                <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-white/90 tracking-tight px-2">
-                    Qualify leads + book meetings automatically
-                </p>
-            </div>
-
-            {/* Highlight - Premium Styling */}
-            <div className="max-w-4xl w-full text-center mb-6 sm:mb-8 md:mb-10 relative z-10 px-4">
-                <div className="inline-block px-6 py-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
-                    <p className="text-sm sm:text-base md:text-lg text-white/90 font-medium tracking-tight">
-                        Installed into your stack, so you own it. No SaaS lock-in
-                    </p>
-                </div>
             </div>
 
             {/* Video Container - Premium Styling */}

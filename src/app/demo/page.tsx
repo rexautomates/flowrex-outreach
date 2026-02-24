@@ -16,7 +16,7 @@ export default function DemoPage() {
   const posterUrl = 'https://4hvls8c9tdwgzu3d.public.blob.vercel-storage.com/thumb.jpg'
 
   return (
-    <main 
+    <main
       className="flex flex-col min-h-screen items-center justify-start px-4 py-6 sm:py-8 md:py-12 overflow-x-hidden relative bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: 'url(/hero-background.jpg)',
@@ -25,30 +25,18 @@ export default function DemoPage() {
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black/80"></div>
       {/* Gradient fade for seamless transitions */}
-      <div 
+      <div
         className="absolute inset-0 pointer-events-none z-[5]"
         style={{
           background: 'linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0.7) 90%, black 100%)',
         }}
       ></div>
-      
+
       {/* Header Section */}
       <div className="max-w-4xl w-full relative z-10 flex flex-col items-center justify-center text-center mb-8 sm:mb-10 md:mb-12">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-white tracking-tight mb-4 sm:mb-6">
           AI SDR Demo
         </h1>
-        <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-white/90 tracking-tight px-2">
-          Qualify leads + book meetings automatically
-        </p>
-      </div>
-
-      {/* Highlight - Premium Styling */}
-      <div className="max-w-4xl w-full text-center mb-6 sm:mb-8 md:mb-10 relative z-10 px-4">
-        <div className="inline-block px-6 py-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
-          <p className="text-sm sm:text-base md:text-lg text-white/90 font-medium tracking-tight">
-            Installed into your stack, so you own it. No SaaS lock-in
-          </p>
-        </div>
       </div>
 
       {/* Video Container - Premium Styling */}
@@ -66,12 +54,12 @@ export default function DemoPage() {
       </div>
 
       {/* Book a Call Button */}
-<div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
-  <a
-  href="https://cal.com/rex-hale-e6vhrh/intro"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+      <div className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 relative z-10 flex justify-center">
+        <a
+          href="https://cal.com/rex-hale-e6vhrh/intro"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
     group relative overflow-hidden
     px-10 py-5 sm:px-12 sm:py-6 rounded-full
     bg-transparent border-2 border-white/35
@@ -83,22 +71,22 @@ export default function DemoPage() {
     active:translate-y-0 active:scale-[1.01]
     focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-0
   "
->
-  {/* sheen */}
-  <span
-    className="
+        >
+          {/* sheen */}
+          <span
+            className="
       pointer-events-none absolute inset-0
       -translate-x-[120%] group-hover:translate-x-[120%]
       transition-transform duration-700 ease-out
       bg-gradient-to-r from-transparent via-white/25 to-transparent
     "
-  />
+          />
 
-  <span className="relative z-10">Book a call</span>
-</a>
+          <span className="relative z-10">Book a call</span>
+        </a>
 
 
-</div>
+      </div>
 
 
       {/* Note */}
